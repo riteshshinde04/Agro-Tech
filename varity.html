@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agro Tech: Crop Varieties</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 20px;
+        }
+        .container h2 {
+            margin: 0 0 10px;
+        }
+        .container p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#rice">Rice</a>
+        <a href="#wheat">Wheat</a>
+        <a href="#maize">Maize</a>
+        <!-- Add more crop links here -->
+    </div>
+
+    <div class="container">
+        <h2 id="rice">Rice Varieties</h2>
+        <p>Placeholder text for rice varieties.</p>
+
+        <h2 id="wheat">Wheat Varieties</h2>
+        <p>Placeholder text for wheat varieties.</p>
+
+        <h2 id="maize">Maize Varieties</h2>
+        <p>Placeholder text for maize varieties.</p>
+
+        <!-- Add more crop sections here -->
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Central Varieties</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Central Varieties</h1>
+    <p>Select a crop group: </p>
+    <select>
+        <option value="rice">Rice</option>
+        <option value="wheat">Wheat</option>
+        <option value="maize">Maize</option>
+        <!-- Add other crop options here -->
+    </select>
+    <table>
+        <thead>
+            <tr>
+                <th>Variety Name</th>
+                <th>Maturity (in Days)</th>
+                <th>Average Yield (Kgs/Ha)</th>
+                <th>Recommended Ecology</th>
+                <th>State/UT</th>
+            </tr>
+        </thead>
+        <tbody id="varietyTable">
+            <!-- Variety data will be inserted here -->
+        </tbody>
+    </table>
+    <script>
+        // Dummy data
+        var varietyData = [
+            {name: 'Variety 1', maturity: 45, yield: 5000, ecology: 'Ecology 1', state: 'State 1'},
+            // Add other variety data here
+        ];
+
+        // Function to generate and insert table rows
+        function generateRows() {
+            var tableBody = document.getElementById('varietyTable');
+            for (var i = 0; i < varietyData.length; i++) {
+                var row = `<tr>
+                    <td>${varietyData[i].name}</td>
+                    <td>${varietyData[i].maturity}</td>
+                    <td>${varietyData[i].yield}</td>
+                    <td>${varietyData[i].ecology}</td>
+                    <td>${varietyData[i].state}</td>
+                </tr>`
+                tableBody.innerHTML += row;
+            }
+        }
+
+        // Call the function to generate and insert table rows
+        generateRows();
+    </script>
+</body>
+</html>
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheat Varieties Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Notified Year (No. of Variety)</th>
+                <th>State/UT</th>
+                <th>Variety Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="7">1.</td>
+                <td rowspan="6">2023 (27)</td>
+                <td>Central Government/GOI</td>
+                <td>DDW 55 (D) KARAN MANJARI, KARAN AIDEHI (DBW 370), KARAN PREMA (DBW 316), KARAN VAISHAVI (DBW 303), KARAN VARUNA (DBW 372), KARNA VRINDA (DBW 371), MACS JEJURI (MACS 4100 D), MACS SAKAS (MACS 6768), NICRA PUSA WHEAT 3411 (HD 3411), PBW 826, PBW 833, PBW 872, PHULE ANUPAM (NIAW 3624), Pusa Aditi (HI 1654), PUSAADITI (HI 1655), PUSA HARSHA (HI 1655), PUSA JAGRATI (HI 1653), Pusa Kirti (HI 8830), PUSA KIRTI (HI 8830), PUSA OJASWI, Pusa Poshtik (HI 8826), PUSA WHEAT 3369 (HD 3369), SHALIMAR WHEAT 3 (SKW - 356), UNNAT HD 2932 (HD 3407), UNNAT HD 2967 (HD 3406), VIDHYA (CG 1036), VL COOKIES (VL 2041)</td>
+            </tr>
+            <tr>
+                <td>RAJASTHAN</td>
+                <td>WHEAT (GEHON)</td>
+            </tr>
+            <tr>
+                <td>Central Government/GOI</td>
+                <td>Hima Palam Gehun 3 (HPW 373), Jammu Wheat 672, K 1616, OTHER HYBRIDS, VL Gehun 2028, VL Gehun 3010</td>
+            </tr>
+            <tr>
+                <td>Central Government/GOI</td>
+                <td>OTHER VARIETIES</td>
+            </tr>
+            <tr>
+                <td>CHHATTISGARH</td>
+                <td>Central Government/GOI</td>
+            </tr>
+            <tr>
+               -->

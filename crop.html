@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech - Crop Details</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            color: #444;
+        }
+
+        h1 a{
+            color: #2a7d2a;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2a7d2a;
+            color: white;
+        }
+
+        #season-dropdown {
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        #crop-interface {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .crop-card {
+            width: 30%;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .crop-image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .crop-name {
+            padding: 10px;
+            text-align: center;
+            background-color: #2a7d2a;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1><a href="index.html">AgroTech</a></h1>
+        </header>
+
+        <section>
+            <p>Welcome to AgroTech, where we explore the fascinating world of crops and agriculture. Learn more about various crops, their cultivation practices, and interesting facts. Discover how different crops thrive in specific seasons and regions, contributing to the diverse tapestry of agriculture worldwide.</p>
+
+            <p>Before exploring the crop details, you can select a season from the dropdown menu to narrow down the information. Whether it's the freshness of spring, the warmth of summer, the colors of autumn, or the chill of winter, each season brings its unique challenges and opportunities for crop cultivation.</p>
+        </section>
+
+        <section>
+            <label for="season-dropdown">Select Season:</label>
+            <select id="season-dropdown" onchange="filterCrops()">
+                <option value="all">All Seasons</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Autumn">Autumn</option>
+                <option value="Winter">Winter</option>
+            </select>
+        </section>
+
+        <section id="crop-interface">
+            <!-- Crop cards will be dynamically added here -->
+        </section>
+
+        <section>
+            <table id="crops-table">
+                <thead>
+                    <tr>
+                        <th>Crop Name</th>
+                        <th>Season for Sowing</th>
+                        <th>Varieties</th>
+                        <th>How to Cultivate</th>
+                        <th>How to Harvest</th>
+                        <th>Water Requirements</th>
+                        <th>Fertilizer Requirements</th>
+                        <th>Suitable Growing Areas</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </div>
+
+    <script>
+        // Fetch data from the crops.json file
+        fetch('crop_details.json')
+            .then(response => response.json())
+            .then(cropsData => {
+                const cropsTable = document.getElementById('crops-table').getElementsByTagName('tbody')[0];
+                const cropInterface = document.getElementById('crop-interface');
+                const seasonDropdown = document.getElementById('season-dropdown');
+
+                // Function to filter crops based on selected season
+                function filterCrops() {
+                    const selectedSeason = seasonDropdown.value;
+
+                    // Clear the table and crop interface
+                    cropsTable.innerHTML = '';
+                    cropInterface.innerHTML = '';
+
+                    // Iterate over each crop
+                    cropsData.forEach(crop => {
+                        // Check if the crop matches the selected season
+                        if (selectedSeason === 'all' || crop['Season for Sowing'] === selectedSeason) {
+                            // Add a row to the table
+                            const row = cropsTable.insertRow();
+
+                            // Define the order of columns based on your JSON structure
+                            const columns = ['Crop Name', 'Season for Sowing', 'Varieties', 'How to Cultivate', 'How to Harvest', 'Water Requirements', 'Fertilizer Requirements', 'Suitable Growing Areas'];
+
+                            columns.forEach(columnName => {
+                                const cell = row.insertCell();
+                                cell.textContent = crop[columnName];
+                            });
+
+                            // Add a crop card to the interface
+                            const cropCard = document.createElement('div');
+                            cropCard.className = 'crop-card';
+
+                            const cropImage = document.createElement('img');
+                            cropImage.className = 'crop-image';
+                            cropImage.src = "./crops/" + crop['Crop Name'].toLowerCase() + '.jpg';  // Replace with the actual path to crop images
+                            cropImage.alt = crop['Crop Name'];
+
+                            const cropName = document.createElement('div');
+                            cropName.className = 'crop-name';
+                            cropName.textContent = crop['Crop Name'];
+
+                            cropCard.appendChild(cropImage);
+                            cropCard.appendChild(cropName);
+                            cropInterface.appendChild(cropCard);
+                        }
+                    });
+                }
+
+                // Attach the filterCrops function to the onchange event of the dropdown
+                seasonDropdown.onchange = filterCrops;
+
+                // Initial rendering
+                filterCrops();
+            })
+            .catch(error => console.error('Error fetching data:', error));
+            
+    </script>
+</body>
+</html>
