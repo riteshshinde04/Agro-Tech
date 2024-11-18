@@ -1,0 +1,1069 @@
+[
+ {
+  "Crop Name": "Wheat",
+  "Season for Sowing": "Autumn",
+  "Varieties": "Durum, Hard Red",
+  "How to Cultivate": "Wheat is cultivated in well-drained loamy soil with good fertility. Plant seeds in rows with proper spacing.",
+  "How to Harvest": "Harvest mature wheat kernels using combine harvesters.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Temperate regions"
+ },
+ {
+  "Crop Name": "Rice",
+  "Season for Sowing": "Spring",
+  "Varieties": "Basmati, Jasmine",
+  "How to Cultivate": "Rice requires flooded clayey soil and warm, tropical climate.",
+  "How to Harvest": "Rice paddies are flooded to allow for easy harvesting.",
+  "Water Requirements": "High; frequent irrigation",
+  "Fertilizer Requirements": "Organic matter, Nitrogen",
+  "Suitable Growing Areas": "Tropical regions"
+ },
+ {
+  "Crop Name": "Maize",
+  "Season for Sowing": "Spring",
+  "Varieties": "Dent, Sweet",
+  "How to Cultivate": "Maize needs warm climate with plenty of sunlight.",
+  "How to Harvest": "Ears of corn are harvested by hand or with machines.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "NPK fertilizer",
+  "Suitable Growing Areas": "Temperate, Subtropical regions"
+ },
+ {
+  "Crop Name": "Soybeans",
+  "Season for Sowing": "Spring",
+  "Varieties": "Edamame, Tofu",
+  "How to Cultivate": "Soybeans prefer warm climate with adequate moisture.",
+  "How to Harvest": "Soybean pods are harvested using mechanical harvesters.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Nitrogen fertilizer",
+  "Suitable Growing Areas": "Warm climates"
+ },
+ {
+  "Crop Name": "Barley",
+  "Season for Sowing": "Autumn",
+  "Varieties": "2-row, 6-row",
+  "How to Cultivate": "Barley grows well in cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest barley when kernels are firm and dry.",
+  "Water Requirements": "Moderate; occasional irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Temperate regions"
+ },
+ {
+  "Crop Name": "Potatoes",
+  "Season for Sowing": "Spring",
+  "Varieties": "Russet, Yukon",
+  "How to Cultivate": "Potatoes thrive in loose, well-drained soil and cooler climates.",
+  "How to Harvest": "Harvest potatoes by digging carefully to avoid damage.",
+  "Water Requirements": "High; regular irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Cotton",
+  "Season for Sowing": "Spring",
+  "Varieties": "Upland, Pima",
+  "How to Cultivate": "Cotton requires warm temperatures and loamy, well-drained soil.",
+  "How to Harvest": "Harvest cotton bolls when they are fully mature.",
+  "Water Requirements": "Moderate; occasional irrigation",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus",
+  "Suitable Growing Areas": "Warm climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Sugarcane",
+  "Season for Sowing": "Spring",
+  "Varieties": "Co 86032, Ho 85",
+  "How to Cultivate": "Sugarcane needs tropical climate and well-drained soil.",
+  "How to Harvest": "Harvest sugarcane by cutting the stalks close to ground.",
+  "Water Requirements": "High; regular irrigation",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Tropical regions, Rich, loamy soil"
+ },
+ {
+  "Crop Name": "Corn",
+  "Season for Sowing": "Spring",
+  "Varieties": "Dent, Sweet",
+  "How to Cultivate": "Corn thrives in warm climates with well-drained soil.",
+  "How to Harvest": "Harvest corn when kernels are plump and milky.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "NPK fertilizer",
+  "Suitable Growing Areas": "Temperate, Subtropical regions"
+ },
+ {
+  "Crop Name": "Tomatoes",
+  "Season for Sowing": "Spring",
+  "Varieties": "Beefsteak, Roma",
+  "How to Cultivate": "Tomatoes need warm temperatures and well-drained soil.",
+  "How to Harvest": "Harvest tomatoes when they are fully ripe.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Warm climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Peanuts",
+  "Season for Sowing": "Spring",
+  "Varieties": "Virginia, Spanish",
+  "How to Cultivate": "Peanuts grow well in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest peanuts by pulling up the entire plant.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus",
+  "Suitable Growing Areas": "Warm climates, Sandy soil"
+ },
+ {
+  "Crop Name": "Sunflowers",
+  "Season for Sowing": "Spring",
+  "Varieties": "Giant, Dwarf",
+  "How to Cultivate": "Sunflowers prefer sunny locations and well-drained soil.",
+  "How to Harvest": "Harvest sunflower heads when seeds are mature.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Sunny locations, Well-drained soil"
+ },
+ {
+  "Crop Name": "Cabbage",
+  "Season for Sowing": "Spring",
+  "Varieties": "Green, Red",
+  "How to Cultivate": "Cabbage requires cool temperatures and fertile soil.",
+  "How to Harvest": "Harvest cabbage heads when they are firm and solid.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Rich, loamy soil"
+ },
+ {
+  "Crop Name": "Carrots",
+  "Season for Sowing": "Spring",
+  "Varieties": "Nantes, Imperator",
+  "How to Cultivate": "Carrots grow best in loose, well-drained soil.",
+  "How to Harvest": "Harvest carrots when they reach the desired size.",
+  "Water Requirements": "Moderate; occasional irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Well-drained soil"
+ },
+ {
+  "Crop Name": "Lettuce",
+  "Season for Sowing": "Spring, Fall",
+  "Varieties": "Romaine, Iceberg",
+  "How to Cultivate": "Lettuce needs cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest lettuce by cutting the leaves near the base.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Spinach",
+  "Season for Sowing": "Spring, Fall",
+  "Varieties": "Bloomsdale, Tyee",
+  "How to Cultivate": "Spinach prefers cooler temperatures and fertile soil.",
+  "How to Harvest": "Harvest spinach by picking the outer leaves regularly.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus",
+  "Suitable Growing Areas": "Cool climates, Rich, well-drained soil"
+ },
+ {
+  "Crop Name": "Soybeans",
+  "Season for Sowing": "Spring",
+  "Varieties": "Edamame, Tofu",
+  "How to Cultivate": "Soybeans prefer warm climate with adequate moisture.",
+  "How to Harvest": "Soybean pods are harvested using mechanical harvesters.",
+  "Water Requirements": "Moderate; regular irrigation",
+  "Fertilizer Requirements": "Nitrogen fertilizer",
+  "Suitable Growing Areas": "Warm climates"
+ },
+ {
+  "Crop Name": "Lentils",
+  "Season for Sowing": "Spring",
+  "Varieties": "Red, Green",
+  "How to Cultivate": "Lentils thrive in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest lentils when pods are dry and seeds rattle.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Peanuts",
+  "Season for Sowing": "Spring",
+  "Varieties": "Valencia, Runner",
+  "How to Cultivate": "Peanuts require warm temperatures and well-drained soil.",
+  "How to Harvest": "Harvest peanuts by uprooting the entire plant.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy soil"
+ },
+ {
+  "Crop Name": "Alfalfa",
+  "Season for Sowing": "Spring",
+  "How to Cultivate": "Alfalfa grows well in temperate climates and well-drained soil.",
+  "How to Harvest": "Harvest alfalfa when plants are in full bloom.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus",
+  "Suitable Growing Areas": "Temperate regions"
+ },
+ {
+  "Crop Name": "Flax",
+  "Season for Sowing": "Spring",
+  "Varieties": "Golden, Brown",
+  "How to Cultivate": "Flax needs cool temperatures and well-drained soil.",
+  "How to Harvest": "Harvest flax when seeds are fully ripe and golden.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Barley",
+  "Season for Sowing": "Autumn",
+  "Varieties": "2-row, 6-row",
+  "How to Cultivate": "Barley grows well in cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest barley when kernels are firm and dry.",
+  "Water Requirements": "Moderate; occasional irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Temperate regions"
+ },
+ {
+  "Crop Name": "Mustard",
+  "Season for Sowing": "Autumn",
+  "Varieties": "Yellow, Brown",
+  "How to Cultivate": "Mustard prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest mustard when seeds are mature and dry.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Sesame",
+  "Season for Sowing": "Spring",
+  "Varieties": "White, Black",
+  "How to Cultivate": "Sesame requires warm temperatures and well-drained soil.",
+  "How to Harvest": "Harvest sesame pods when they turn brown and dry.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy soil"
+ },
+ {
+  "Crop Name": "Oats",
+  "Season for Sowing": "Spring\/Autumn",
+  "Varieties": "Common, Red",
+  "How to Cultivate": "Oats thrive in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest oats when seeds are fully ripe and hard.",
+  "Water Requirements": "Moderate; occasional irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Temperate regions"
+ },
+ {
+  "Crop Name": "Quinoa",
+  "Season for Sowing": "Spring",
+  "Varieties": "White, Red",
+  "How to Cultivate": "Quinoa prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest quinoa by cutting the seed heads when dry.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Triticale",
+  "Season for Sowing": "Autumn",
+  "Varieties": "Common, Winter",
+  "How to Cultivate": "Triticale grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest triticale when seeds are fully ripe and dry.",
+  "Water Requirements": "Moderate; occasional irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Temperate regions"
+ },
+ {
+  "Crop Name": "Millet",
+  "Season for Sowing": "Spring",
+  "Varieties": "Pearl, Finger",
+  "How to Cultivate": "Millet thrives in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest millet when seeds are fully ripe and dry.",
+  "Water Requirements": "Low to Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy soil"
+ },
+ {
+ "Crop Name": "Tomato",
+    "Season for Sowing": "Summer",
+    "Varieties": "Roma, Cherry, Beefsteak",
+    "How to Cultivate": "Plant tomato seeds or seedlings in well-drained soil with plenty of sunlight.",
+    "How to Harvest": "Harvest ripe tomatoes when they reach full color and firmness.",
+    "Water Requirements": "Regular watering, ensuring soil is consistently moist.",
+    "Fertilizer Requirements": "Balanced fertilizer with higher potassium content.",
+    "Suitable Growing Areas": "Warm and sunny regions"
+  },
+  {
+    "Crop Name": "Cucumber",
+    "Season for Sowing": "Summer",
+    "Varieties": "Straight Eight, Armenian, Pickling",
+    "How to Cultivate": "Plant cucumber seeds or seedlings in fertile, well-drained soil with good sunlight.",
+    "How to Harvest": "Harvest cucumbers when they are firm and dark green.",
+    "Water Requirements": "Regular watering, keeping the soil consistently moist.",
+    "Fertilizer Requirements": "Balanced fertilizer with emphasis on nitrogen.",
+    "Suitable Growing Areas": "Warm climates with full sun"
+  },
+  {
+    "Crop Name": "Watermelon",
+    "Season for Sowing": "Summer",
+    "Varieties": "Crimson Sweet, Sugar Baby, Yellow Doll",
+    "How to Cultivate": "Plant watermelon seeds in warm soil with plenty of sunlight and space.",
+    "How to Harvest": "Harvest watermelons when the tendrils dry out, and the fruit has a hollow sound.",
+    "Water Requirements": "Frequent watering, especially during dry spells.",
+    "Fertilizer Requirements": "Rich, well-draining soil with balanced nutrients.",
+    "Suitable Growing Areas": "Warm and hot regions with a long growing season"
+  },
+
+ {
+  "Crop Name": "Buckwheat",
+  "Season for Sowing": "Spring",
+  "Varieties": "Common, Tartary",
+  "How to Cultivate": "Buckwheat prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest buckwheat when seeds turn brown and dry.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Rye",
+  "Season for Sowing": "Autumn",
+  "Varieties": "Winter, Spring",
+  "How to Cultivate": "Rye grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest rye when kernels are hard and dry.",
+  "Water Requirements": "Moderate; occasional irrigation",
+  "Fertilizer Requirements": "Balanced NPK fertilizer",
+  "Suitable Growing Areas": "Temperate regions"
+ },
+ {
+  "Crop Name": "Teff",
+  "Season for Sowing": "Spring",
+  "Varieties": "Ivory, Brown",
+  "How to Cultivate": "Teff requires warm temperatures and well-drained soil.",
+  "How to Harvest": "Harvest teff when seeds are fully ripe and dry.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy soil"
+ },
+ {
+  "Crop Name": "Hemp",
+  "Season for Sowing": "Spring",
+  "Varieties": "Fibre, Grain",
+  "How to Cultivate": "Hemp thrives in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest hemp when seeds are mature and bracts yellow.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium"
+ },
+ {
+  "Crop Name": "Alfalfa",
+  "Season for Sowing": "Spring",
+  "Varieties": "Common, Lucerne",
+  "How to Cultivate": "Alfalfa grows well in temperate climates and well-drained soil.",
+  "How to Harvest": "Harvest alfalfa when plants are in full bloom.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Temperate regions, Well-drained soil"
+ },
+ {
+  "Crop Name": "Amaranth",
+  "Season for Sowing": "Spring",
+  "Varieties": "Red, Green",
+  "How to Cultivate": "Amaranth prefers warm climates and well-drained soil.",
+  "How to Harvest": "Harvest amaranth when seeds are mature and dry.",
+  "Water Requirements": "Moderate; drought-tolerant",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy soil"
+ },
+ {
+  "Crop Name": "Broccoli",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Green, Purple",
+  "How to Cultivate": "Broccoli thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest broccoli when heads are firm and tight.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Cabbage",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Green, Red",
+  "How to Cultivate": "Cabbage grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest cabbage heads when they are firm and solid.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Carrots",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Orange, Purple",
+  "How to Cultivate": "Carrots prefer cool climates and loose, well-drained soil.",
+  "How to Harvest": "Harvest carrots when roots are mature and firm.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Celery",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Pascal, Golden",
+  "How to Cultivate": "Celery grows well in cool climates and moist, well-drained soil.",
+  "How to Harvest": "Harvest celery by cutting stalks close to the base.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Rich, Loamy soil"
+ },
+ {
+  "Crop Name": "Peppers",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Bell, Jalapeno",
+  "How to Cultivate": "Peppers prefer warm climates and well-drained soil.",
+  "How to Harvest": "Harvest peppers when they reach desired size and color.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Spinach",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Savoy, Flat",
+  "How to Cultivate": "Spinach thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest spinach leaves when they are large and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Rich, Loamy soil"
+ },
+ {
+  "Crop Name": "Cauliflower",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "White, Purple",
+  "How to Cultivate": "Cauliflower prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest cauliflower heads when they are compact.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Lettuce",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Romaine, Iceberg",
+  "How to Cultivate": "Lettuce thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest lettuce leaves when they reach desired size.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Radishes",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Red, White",
+  "How to Cultivate": "Radishes grow well in cool climates and loose soil.",
+  "How to Harvest": "Harvest radishes when roots are mature and firm.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Zucchini",
+  "Season for Sowing": "Spring",
+  "Varieties": "Green, Yellow",
+  "How to Cultivate": "Zucchini prefers warm climates and well-drained soil.",
+  "How to Harvest": "Harvest zucchini when fruits are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Pumpkins",
+  "Season for Sowing": "Spring",
+  "Varieties": "Jack O' Lantern, Sugar Pie",
+  "How to Cultivate": "Pumpkins need warm climates and well-drained soil.",
+  "How to Harvest": "Harvest pumpkins when skin hardens and vine dies.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Watermelons",
+  "Season for Sowing": "Spring",
+  "Varieties": "Sugar Baby, Crimson Sweet",
+  "How to Cultivate": "Watermelons require warm climates and well-drained soil.",
+  "How to Harvest": "Harvest watermelons when underside turns yellow.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Cucumbers",
+  "Season for Sowing": "Spring",
+  "Varieties": "Slicing, Pickling",
+  "How to Cultivate": "Cucumbers prefer warm climates and well-drained soil.",
+  "How to Harvest": "Harvest cucumbers when they reach desired size.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Eggplants",
+  "Season for Sowing": "Spring",
+  "Varieties": "Black Beauty, Japanese",
+  "How to Cultivate": "Eggplants thrive in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest eggplants when fruits are shiny and firm.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium"
+ },
+ {
+  "Crop Name": "Asparagus",
+  "Season for Sowing": "Spring",
+  "Varieties": "Mary Washington, Jersey Knight",
+  "How to Cultivate": "Asparagus prefers well-drained soil and cool climates.",
+  "How to Harvest": "Harvest asparagus spears when they reach 6-8 inches tall.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Artichokes",
+  "Season for Sowing": "Spring",
+  "Varieties": "Green Globe, Purple Sicilian",
+  "How to Cultivate": "Artichokes thrive in mild climates and well-drained soil.",
+  "How to Harvest": "Harvest artichokes when buds are firm and tightly closed.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Mild climates, Rich, Loamy soil"
+ },
+ {
+  "Crop Name": "Brussels Sprouts",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Long Island Improved, Churchill",
+  "How to Cultivate": "Brussels sprouts grow best in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest Brussels sprouts when heads are firm and green.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Okra",
+  "Season for Sowing": "Spring",
+  "Varieties": "Clemson Spineless, Emerald",
+  "How to Cultivate": "Okra prefers warm climates and well-drained soil.",
+  "How to Harvest": "Harvest okra pods when they are 2-4 inches long.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Parsnips",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Hollow Crown, Gladiator",
+  "How to Cultivate": "Parsnips grow well in cool climates and deep, loose soil.",
+  "How to Harvest": "Harvest parsnips after a frost or when roots reach 12 inches.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Rutabagas",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "American Purple Top, Laurentian",
+  "How to Cultivate": "Rutabagas thrive in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest rutabagas when roots are 3-5 inches in diameter.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Turnips",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Purple Top White Globe, Tokyo Cross",
+  "How to Cultivate": "Turnips prefer cool climates and well-drained soil.",
+  "How to Harvest": "Harvest turnips when roots are 2-3 inches in diameter.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Kohlrabi",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Early White Vienna, Purple Vienna",
+  "How to Cultivate": "Kohlrabi grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest kohlrabi when bulbs reach 2-3 inches in diameter.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Cilantro",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Slow Bolt, Santo",
+  "How to Cultivate": "Cilantro prefers cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest cilantro leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool to Warm climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Dill",
+  "Season for Sowing": "Spring",
+  "Varieties": "Bouquet, Fernleaf",
+  "How to Cultivate": "Dill grows well in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest dill leaves when they are fully developed.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Fennel",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Florence, Zefa Fino",
+  "How to Cultivate": "Fennel prefers mild climates and well-drained soil.",
+  "How to Harvest": "Harvest fennel bulbs when they are firm and plump.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Mild climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Bok Choy",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Joi Choi, Michihili",
+  "How to Cultivate": "Bok Choy thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest bok choy leaves when they are mature and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Tatsoi",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Yukina Savoy, Rosette",
+  "How to Cultivate": "Tatsoi prefers cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest tatsoi leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool to Warm climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Mizuna",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Kyoto, Early",
+  "How to Cultivate": "Mizuna grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest mizuna leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Arugula",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Astro, Sylvetta",
+  "How to Cultivate": "Arugula prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest arugula leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Endive",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Escarole, Frisée",
+  "How to Cultivate": "Endive grows well in cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest endive leaves when they are mature and crisp.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Radicchio",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Chioggia, Treviso",
+  "How to Cultivate": "Radicchio thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest radicchio heads when they are firm and compact.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Escarole",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Natacha, Full Heart",
+  "How to Cultivate": "Escarole prefers cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest escarole leaves when they are mature and crisp.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Pak Choi",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Mei Qing Choi, Shanghai Green",
+  "How to Cultivate": "Pak Choi grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest pak choi leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Chinese Cabbage",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Napa, Michihili",
+  "How to Cultivate": "Chinese cabbage thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest Chinese cabbage heads when they are firm.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Collard Greens",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Georgia, Champion",
+  "How to Cultivate": "Collard greens prefer cool climates and well-drained soil.",
+  "How to Harvest": "Harvest collard greens when they reach desired size.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Turnip Greens",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Seven Top, Southern",
+  "How to Cultivate": "Turnip greens grow well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest turnip greens when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Kohlrabi",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Early White Vienna, Purple Vienna",
+  "How to Cultivate": "Kohlrabi grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest kohlrabi when bulbs reach 2-3 inches in diameter.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Mizuna",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Kyoto, Early",
+  "How to Cultivate": "Mizuna grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest mizuna leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Kale",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Lacinato, Curly",
+  "How to Cultivate": "Kale thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest kale leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Swiss Chard",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Rainbow, Fordhook",
+  "How to Cultivate": "Swiss chard prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest Swiss chard leaves when they are mature.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Radishes",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Cherry Belle, French Breakfast",
+  "How to Cultivate": "Radishes grow well in cool climates and loose soil.",
+  "How to Harvest": "Harvest radishes when roots are mature and firm.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Spinach",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Bloomsdale, Baby",
+  "How to Cultivate": "Spinach thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest spinach leaves when they are large and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Rich, Loamy soil"
+ },
+ {
+  "Crop Name": "Mustard Greens",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Tendergreen, Red Giant",
+  "How to Cultivate": "Mustard greens prefer cool climates and well-drained soil.",
+  "How to Harvest": "Harvest mustard greens when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Arugula",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Astro, Sylvetta",
+  "How to Cultivate": "Arugula prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest arugula leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Endive",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Escarole, Frisée",
+  "How to Cultivate": "Endive grows well in cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest endive leaves when they are mature and crisp.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Mizuna",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Kyoto, Early",
+  "How to Cultivate": "Mizuna grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest mizuna leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Cabbage",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Green, Red",
+  "How to Cultivate": "Cabbage grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest cabbage heads when they are firm and solid.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Brussels Sprouts",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Long Island Improved, Churchill",
+  "How to Cultivate": "Brussels sprouts grow best in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest Brussels sprouts when heads are firm and green.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Broccoli",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Green, Purple",
+  "How to Cultivate": "Broccoli thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest broccoli heads when they are firm and tight.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Cauliflower",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "White, Purple",
+  "How to Cultivate": "Cauliflower prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest cauliflower heads when they are compact.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Carrots",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Orange, Purple",
+  "How to Cultivate": "Carrots prefer cool climates and loose, well-drained soil.",
+  "How to Harvest": "Harvest carrots when roots are mature and firm.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Celery",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Pascal, Golden",
+  "How to Cultivate": "Celery grows well in cool climates and moist, well-drained soil.",
+  "How to Harvest": "Harvest celery by cutting stalks close to the base.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Rich, Loamy soil"
+ },
+ {
+  "Crop Name": "Peppers",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Bell, Jalapeno",
+  "How to Cultivate": "Peppers prefer warm climates and well-drained soil.",
+  "How to Harvest": "Harvest peppers when they reach desired size and color.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Potatoes",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Russet, Yukon",
+  "How to Cultivate": "Potatoes thrive in loose, well-drained soil and cooler climates.",
+  "How to Harvest": "Harvest potatoes by digging carefully to avoid damage.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Sweet Corn",
+  "Season for Sowing": "Spring",
+  "Varieties": "Sugary Enhanced, Supersweet",
+  "How to Cultivate": "Sweet corn thrives in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest sweet corn when kernels are plump and milky.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Rich, Loamy soil"
+ },
+ {
+  "Crop Name": "Peas",
+  "Season for Sowing": "Spring",
+  "Varieties": "English, Snap",
+  "How to Cultivate": "Peas prefer cool climates and well-drained soil.",
+  "How to Harvest": "Harvest peas when pods are plump and sweet.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Rich, Loamy soil"
+ },
+ {
+  "Crop Name": "Green Beans",
+  "Season for Sowing": "Spring\/Summer",
+  "Varieties": "Bush, Pole",
+  "How to Cultivate": "Green beans require warm temperatures and well-drained soil.",
+  "How to Harvest": "Harvest green beans when pods are crisp and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Well-drained soil"
+ },
+ {
+  "Crop Name": "Tomatoes",
+  "Season for Sowing": "Spring\/Summer",
+  "Varieties": "Beefsteak, Cherry",
+  "How to Cultivate": "Tomatoes thrive in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest tomatoes when they reach desired size and color.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Cucumbers",
+  "Season for Sowing": "Spring\/Summer",
+  "Varieties": "Slicing, Pickling",
+  "How to Cultivate": "Cucumbers prefer warm climates and well-drained soil.",
+  "How to Harvest": "Harvest cucumbers when they reach desired size.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Pumpkins",
+  "Season for Sowing": "Spring\/Summer",
+  "Varieties": "Jack O' Lantern, Sugar Pie",
+  "How to Cultivate": "Pumpkins need warm climates and well-drained soil.",
+  "How to Harvest": "Harvest pumpkins when skin hardens and vine dies.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Watermelons",
+  "Season for Sowing": "Spring\/Summer",
+  "Varieties": "Sugar Baby, Crimson Sweet",
+  "How to Cultivate": "Watermelons require warm climates and well-drained soil.",
+  "How to Harvest": "Harvest watermelons when underside turns yellow.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Sandy, Loamy soil"
+ },
+ {
+  "Crop Name": "Eggplants",
+  "Season for Sowing": "Spring\/Summer",
+  "Varieties": "Black Beauty, Japanese",
+  "How to Cultivate": "Eggplants thrive in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest eggplants when fruits are shiny and firm.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassiu"
+ },
+ {
+  "Crop Name": "Cilantro",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Slow Bolt, Santo",
+  "How to Cultivate": "Cilantro prefers cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest cilantro leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool to Warm climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Dill",
+  "Season for Sowing": "Spring",
+  "Varieties": "Bouquet, Fernleaf",
+  "How to Cultivate": "Dill grows well in warm climates and well-drained soil.",
+  "How to Harvest": "Harvest dill leaves when they are fully developed.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Warm climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Fennel",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Florence, Zefa Fino",
+  "How to Cultivate": "Fennel prefers mild climates and well-drained soil.",
+  "How to Harvest": "Harvest fennel bulbs when they are firm and plump.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Mild climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Bok Choy",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Joi Choi, Michihili",
+  "How to Cultivate": "Bok Choy thrives in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest bok choy leaves when they are mature and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Tatsoi",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Yukina Savoy, Rosette",
+  "How to Cultivate": "Tatsoi prefers cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest tatsoi leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool to Warm climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Mizuna",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Kyoto, Early",
+  "How to Cultivate": "Mizuna grows well in cool climates and well-drained soil.",
+  "How to Harvest": "Harvest mizuna leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Arugula",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Astro, Sylvetta",
+  "How to Cultivate": "Arugula prefers cool climates and well-drained soil.",
+  "How to Harvest": "Harvest arugula leaves when they are young and tender.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ },
+ {
+  "Crop Name": "Endive",
+  "Season for Sowing": "Spring\/Fall",
+  "Varieties": "Escarole, Frisée",
+  "How to Cultivate": "Endive grows well in cooler temperatures and well-drained soil.",
+  "How to Harvest": "Harvest endive leaves when they are mature and crisp.",
+  "Water Requirements": "Moderate; consistent",
+  "Fertilizer Requirements": "Nitrogen, Phosphorus, Potassium",
+  "Suitable Growing Areas": "Cool climates, Loamy soil"
+ }
+]

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Image Scanner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        .logo {
+            font-size: xx-large;
+            color: #1f1f7c;
+            font-family: 'Rajdhani', sans-serif;
+            cursor: pointer;
+        }
+
+        .main {
+            text-align: center;
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        .nav_bar {
+            background-color: rgb(13 1 15);
+            box-shadow: 0px 0px 2px 2px #103439;
+            padding: 14px 0px 15px 0px;
+        }
+
+        .nav_bar a {
+            color: floralwhite;
+            text-decoration: none;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        .drop-zone {
+            margin: 20px;
+            max-width: 200px;
+            height: 200px;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            top: 65px;
+            position: relative;
+            font-weight: 500;
+            font-size: 20px;
+            cursor: pointer;
+            color: rgb(107 107 236);
+            border: 4px dashed #060a19;
+            border-radius: 10px;
+        }
+
+        #infoIcon {
+            width: 150px;
+            font-size: 21px;
+            height: 51px;
+            background: black;
+            border: 3px solid #35356d;
+            color: aquamarine;
+            border-radius: 10px;
+            cursor: pointer;
+            top: 90px;
+            position: relative;
+        }
+
+        #infoIcon:hover {
+            border: 3px solid blue;
+        }
+
+        .progress-bar {
+            width: 200px;
+            height: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .progress-bar .progress {
+            height: 100%;
+            width: 0%;
+            background-color: #008000;
+            border-radius: 10px;
+        }
+
+        #fileToUpload {
+            top: 84px;
+            position: relative;
+            border: 2px solid darkslateblue;
+            background: rgb(0, 0, 0);
+            padding: 10px 0px 17px 15px;
+            margin: 0px 29px 0px 0px;
+            border-radius: 11px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="logo">
+        <a href="index.html" style="text-decoration: none;">GO back</a>
+    </nav>
+    <div class="main">
+        <h1><img src="images/icon/logo.png" alt=""></h1>
+        <p>Examine your crops by clicking and uploading below 
+            <br> and see the results after processing
+            <br> AgroTech Team
+        </p>
+    
+        <div class="nav_bar">
+            <nav>
+                <a href="#" id="file">Upload Image</a>
+            </nav>
+        </div>
+
+
+    <center>
+        <div class="drop-zone" id="dropZone">
+            <span class="drop__prompt">Drag and drop your image here to upload</span>
+        </div>
+
+        <form action="ml_model_endpoint" method="POST" enctype="multipart/form-data">
+            <input type="file" name="fileToUpload" id="fileToUpload" accept="image/*">
+            <input type="submit" value="Upload" id="infoIcon" name="submit">
+
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </form>
+    </center>
+
+    <script>
+        // Your existing script content
+    </script>
+</body>
+
+</html>

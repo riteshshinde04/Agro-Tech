@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.ico">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>AgroTech</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header" style="height: 23vh;">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#Features">Features</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>AgroTech</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#Features">Features</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+	
+
+<body>
+  <button class="buttonb" onclick="goToFertilizer()">Fertilizer</button>
+  <button class="buttonb" onclick="goToPesticide()">Pesticide</button>
+  <button class="buttonb" onclick="goToIndex()">Home</button>
+</body><br><br>
+    <!--<style>-->
+    <!--    body {-->
+    <!--        font-family: Arial, sans-serif;-->
+    <!--        margin: 20px;-->
+    <!--    }-->
+
+    <!--    #crop-list {-->
+    <!--        list-style-type: none;-->
+    <!--        padding: 0;-->
+    <!--        display: flex;-->
+    <!--        flex-wrap: wrap;-->
+    <!--    }-->
+
+    <!--    .crop-item {-->
+    <!--        cursor: pointer;-->
+    <!--        margin: 10px;-->
+    <!--        padding: 15px;-->
+    <!--        border: 1px solid #ccc;-->
+    <!--        border-radius: 5px;-->
+    <!--        text-align: center;-->
+    <!--    }-->
+
+    <!--    #recommendations {-->
+    <!--        display: none;-->
+    <!--        position: fixed;-->
+    <!--        top: 50%;-->
+    <!--        left: 50%;-->
+    <!--        transform: translate(-50%, -50%);-->
+    <!--        padding: 20px;-->
+    <!--        background-color: #fff;-->
+    <!--        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);-->
+    <!--        border-radius: 5px;-->
+    <!--        z-index: 1;-->
+    <!--    }-->
+
+    <!--    #close-btn {-->
+    <!--        position: absolute;-->
+    <!--        top: 10px;-->
+    <!--        right: 10px;-->
+    <!--        cursor: pointer;-->
+    <!--    }-->
+    <!--</style>-->
+
+
+<!--<h1>Crop Recommendations</h1>-->
+
+<!--<ul id="crop-list">-->
+<!--</ul>-->
+
+<!--<div id="recommendations">-->
+<!--    <span id="close-btn" onclick="closePopup()">X</span>-->
+<!--    <h2 id="crop-name"></h2>-->
+<!--    <p><strong>Recommended Fertilizer:</strong> <span id="fertilizer"></span></p>-->
+<!--    <p><strong>Recommended Pesticide:</strong> <span id="pesticide"></span></p>-->
+<!--</div>-->
+
+<!--<script>-->
+<!--    const cropData = {-->
+<!--        "Carrot": { fertilizer: "Nitrogen", pesticide: "Carbaryl" },-->
+<!--        "Lettuce": { fertilizer: "NPK 10-20-10", pesticide: "Fish emulsion" },-->
+<!--        "Broccoli": { fertilizer: "Calcium ammonium nitrate", pesticide: "Bt (Bacillus thuringiensis)" },-->
+<!--        "Spinach": { fertilizer: "Nitrogen", pesticide: "Neem Oil" },-->
+<!--        "Strawberry": { fertilizer: "UREA", pesticide: "Fungicide (Copper-based)" },-->
+<!--        "Peanut": { fertilizer: "DAP", pesticide: "Imidacloprid" },-->
+<!--        "Cabbage": { fertilizer: "NPK 15-15-15", pesticide: "Bifenthrin" },-->
+<!--        "Cucumber": { fertilizer: "UREA", pesticide: "Neem Oil" },-->
+<!--        "Orange": { fertilizer: "Complete citrus fertilizer", pesticide: "Neem Oil" },-->
+<!--        "Grapes": { fertilizer: "Nitrogen", pesticide: "Copper sulfate" },-->
+<!--        "Avocado": { fertilizer: "NPK 15-10-20", pesticide: "Copper oxychloride" },-->
+<!--        "Eggplant": { fertilizer: "UREA", pesticide: "Spinosad" },-->
+<!--        "Cauliflower": { fertilizer: "NPK 10-15-10", pesticide: "Bt (Bacillus thuringiensis)" },-->
+<!--        "Pineapple": { fertilizer: "Complete fertilizer", pesticide: "Mancozeb" },-->
+<!--        "Blueberries": { fertilizer: "Acidic fertilizer", pesticide: "Captan" },-->
+<!--        "Papaya": { fertilizer: "NPK 20-10-20", pesticide: "Imidacloprid" },-->
+<!--        "Radish": { fertilizer: "Nitrogen", pesticide: "Neem Oil" },-->
+<!--        "Watermelon": { fertilizer: "UREA", pesticide: "Chlorothalonil" },-->
+<!--        "Zucchini": { fertilizer: "NPK 10-20-10", pesticide: "Neem Oil" },-->
+<!--        "Kiwi": { fertilizer: "Nitrogen", pesticide: "Pyrethroids" },-->
+<!--        "Mango": { fertilizer: "NPK 12-6-20", pesticide: "Imidacloprid" },-->
+<!--        "Bell Pepper": { fertilizer: "UREA", pesticide: "Bifenthrin" },-->
+<!--        "Artichoke": { fertilizer: "NPK 8-12-12", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Asparagus": { fertilizer: "Nitrogen", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Raspberry": { fertilizer: "Organic compost", pesticide: "Copper-based Fungicide" },-->
+<!--        "Peach": { fertilizer: "NPK 10-10-10", pesticide: "Imidacloprid" },-->
+<!--        "Cantaloupe": { fertilizer: "UREA", pesticide: "Chlorothalonil" },-->
+<!--        "Blackberry": { fertilizer: "Acidic fertilizer", pesticide: "Carbaryl" },-->
+<!--        "Pomegranate": { fertilizer: "NPK 14-14-14", pesticide: "Fungicide (Copper-based)" },-->
+<!--        "Cranberry": { fertilizer: "Nitrogen", pesticide: "Chlorpyrifos" },-->
+<!--        "Plum": { fertilizer: "NPK 10-10-20", pesticide: "Neem Oil" },-->
+<!--        "Guava": { fertilizer: "UREA", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Cilantro": { fertilizer: "Nitrogen", pesticide: "Bifenthrin" },-->
+<!--        "Fig": { fertilizer: "NPK 5-10-10", pesticide: "Pyrethroids" },-->
+<!--        "Cherry": { fertilizer: "Complete fertilizer", pesticide: "Carbaryl" },-->
+<!--        "Banana": { fertilizer: "NPK 8-10-12", pesticide: "Chlorpyrifos" },-->
+<!--        "Persimmon": { fertilizer: "Nitrogen", pesticide: "Spinosad" },-->
+<!--        "Apricot": { fertilizer: "NPK 14-14-14", pesticide: "Imidacloprid" },-->
+<!--        "Tangerine": { fertilizer: "UREA", pesticide: "Bifenthrin" },-->
+<!--        "Date Palm": { fertilizer: "NPK 8-8-24", pesticide: "Imidacloprid" },-->
+<!--        "Lychee": { fertilizer: "UREA", pesticide: "Malathion" },-->
+<!--        "Watercress": { fertilizer: "Nitrogen", pesticide: "Diatomaceous earth" },-->
+<!--        "Passion Fruit": { fertilizer: "NPK 10-20-10", pesticide: "Copper-based Fungicide" },-->
+<!--        "Dragon Fruit": { fertilizer: "UREA", pesticide: "Bifenthrin" },-->
+<!--        "Elderberry": { fertilizer: "Organic compost", pesticide: "Chlorantraniliprole" },-->
+<!--        "Mulberry": { fertilizer: "NPK 12-12-17", pesticide: "Neem Oil" },-->
+<!--        "Quince": { fertilizer: "Nitrogen", pesticide: "Spinosad" },-->
+<!--        "Boysenberry": { fertilizer: "UREA", pesticide: "Pyrethroids" },-->
+<!--        "Jujube": { fertilizer: "NPK 14-14-14", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Pistachio": { fertilizer: "NPK 14-14-14", pesticide: "Imidacloprid" },-->
+<!--        "Hazelnut": { fertilizer: "UREA", pesticide: "Bifenthrin" },-->
+<!--        "Saffron": { fertilizer: "NPK 10-20-10", pesticide: "Mancozeb" },-->
+<!--        "Macadamia Nut": { fertilizer: "UREA", pesticide: "Pyrethroids" },-->
+<!--        "Acerola Cherry": { fertilizer: "NPK 8-6-10", pesticide: "Copper sulfate" },-->
+<!--        "Kiwifruit": { fertilizer: "Nitrogen", pesticide: "Chlorothalonil" },-->
+<!--        "Cranberry": { fertilizer: "UREA", pesticide: "Neem Oil" },-->
+<!--        "Sunchoke": { fertilizer: "NPK 12-12-17", pesticide: "Spinosad" },-->
+<!--        "Gooseberry": { fertilizer: "Nitrogen", pesticide: "Copper oxychloride" },-->
+<!--        "Yuzu": { fertilizer: "NPK 10-15-20", pesticide: "Carbaryl" },-->
+<!--        "Cacao": { fertilizer: "NPK 15-10-10", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Rambutan": { fertilizer: "UREA", pesticide: "Bifenthrin" },-->
+<!--        "Olive": { fertilizer: "NPK 12-10-18", pesticide: "Copper hydroxide" },-->
+<!--        "Persimmon": { fertilizer: "Nitrogen", pesticide: "Neonicotinoid" },-->
+<!--        "Blackcurrant": { fertilizer: "NPK 8-10-12", pesticide: "Bifenthrin" },-->
+<!--        "Mamey Sapote": { fertilizer: "UREA", pesticide: "Imidacloprid" },-->
+<!--        "Mulberry": { fertilizer: "NPK 12-6-12", pesticide: "Bt (Bacillus thuringiensis)" },-->
+<!--        "Chayote": { fertilizer: "Nitrogen", pesticide: "Carbaryl" },-->
+<!--        "Huckleberry": { fertilizer: "UREA", pesticide: "Neonicotinoid" },-->
+<!--        "Tamarillo": { fertilizer: "NPK 10-15-20", pesticide: "Bifenthrin" },-->
+<!--        "Jicama": { fertilizer: "NPK 10-20-10", pesticide: "Neem Oil" },-->
+<!--        "Bok Choy": { fertilizer: "Nitrogen", pesticide: "Spinosad" },-->
+<!--        "Passionflower": { fertilizer: "UREA", pesticide: "Neem Oil" },-->
+<!--        "Amaranth": { fertilizer: "NPK 15-15-15", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Yam": { fertilizer: "UREA", pesticide: "Chlorpyrifos" },-->
+<!--        "Kohlrabi": { fertilizer: "NPK 10-10-10", pesticide: "Neem Oil" },-->
+<!--        "Cactus Pear": { fertilizer: "Nitrogen", pesticide: "Pyrethroids" },-->
+<!--        "Jujube": { fertilizer: "NPK 12-6-18", pesticide: "Bifenthrin" },-->
+<!--        "Yacon": { fertilizer: "UREA", pesticide: "Diatomaceous earth" },-->
+<!--        "Mesquite": { fertilizer: "NPK 10-20-10", pesticide: "Neem Oil" },-->
+<!--        "Chervil": { fertilizer: "Nitrogen", pesticide: "Bifenthrin" },-->
+<!--        "Nectarine": { fertilizer: "NPK 12-12-12", pesticide: "Copper hydroxide" },-->
+<!--        "Daikon Radish": { fertilizer: "UREA", pesticide: "Neem Oil" },-->
+<!--        "Rutabaga": { fertilizer: "NPK 10-20-10", pesticide: "Spinosad" },-->
+<!--        "Tindora": { fertilizer: "Nitrogen", pesticide: "Bifenthrin" },-->
+<!--        "Chokeberry": { fertilizer: "NPK 8-8-8", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Cloudberry": { fertilizer: "UREA", pesticide: "Imidacloprid" },-->
+<!--        "Horseradish": { fertilizer: "NPK 12-6-18", pesticide: "Neem Oil" },-->
+<!--        "Elderflower": { fertilizer: "Nitrogen", pesticide: "Spinosad" },-->
+<!--        "Ground Cherry": { fertilizer: "UREA", pesticide: "Copper sulfate" },-->
+<!--        "Chayote Squash": { fertilizer: "NPK 10-20-10", pesticide: "Neem Oil" },-->
+<!--        "Lovage": { fertilizer: "Nitrogen", pesticide: "Bifenthrin" },-->
+<!--        "Cornelian Cherry": { fertilizer: "UREA", pesticide: "Copper oxychloride" },-->
+<!--        "Kabocha Squash": { fertilizer: "NPK 10-10-10", pesticide: "Pyrethroids" },-->
+<!--        "Tarragon": { fertilizer: "UREA", pesticide: "Bifenthrin" },-->
+<!--        "Lingonberry": { fertilizer: "NPK 10-14-20", pesticide: "Copper sulfate" },-->
+<!--        "Sorrel": { fertilizer: "Nitrogen", pesticide: "Bt (Bacillus thuringiensis)" },-->
+<!--        "Oca": { fertilizer: "NPK 10-15-10", pesticide: "Imidacloprid" },-->
+<!--        "Maracuja": { fertilizer: "UREA", pesticide: "Pyrethroids" },-->
+<!--        "Bamboo Shoots": { fertilizer: "NPK 14-14-14", pesticide: "Bifenthrin" },-->
+<!--        "Arrowroot": { fertilizer: "Nitrogen", pesticide: "Neem Oil" },-->
+<!--        "Camu Camu": { fertilizer: "NPK 8-8-8", pesticide: "Copper oxychloride" },-->
+<!--        "Chia Seeds": { fertilizer: "UREA", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Black Sapote": { fertilizer: "NPK 10-20-10", pesticide: "Neem Oil" },-->
+<!--        "Chervil Root": { fertilizer: "Nitrogen", pesticide: "Spinosad" },-->
+<!--        "Borage": { fertilizer: "UREA", pesticide: "Bifenthrin" },-->
+<!--        "Sea Buckthorn": { fertilizer: "NPK 12-6-12", pesticide: "Imidacloprid" },-->
+<!--        "Job's Tears": { fertilizer: "Nitrogen", pesticide: "Copper sulfate" },-->
+<!--        "Tung Tree": { fertilizer: "NPK 10-20-10", pesticide: "Bifenthrin" },-->
+<!--        "Nasturtium": { fertilizer: "UREA", pesticide: "Neem Oil" },-->
+<!--        "Tomato": { fertilizer: "Nitrogen", pesticide: "Neem Oil" },-->
+<!--        "Potato": { fertilizer: "Phosphorus", pesticide: "Neem Oil" },-->
+<!--        "Spinach": { fertilizer: "Nitrogen", pesticide: "Neem Oil" },-->
+<!--        "Carrot": { fertilizer: "Nitrogen", pesticide: "Spinosad" },-->
+<!--        "Broccoli": { fertilizer: "Calcium ammonium nitrate", pesticide: "Pyrethroids" },-->
+<!--        "Cabbage": { fertilizer: "NPK 15-15-15", pesticide: "Copper hydroxide" },-->
+<!--        "Cucumber": { fertilizer: "UREA", pesticide: "Chlorothalonil" },-->
+<!--        "Orange": { fertilizer: "Complete citrus fertilizer", pesticide: "Imidacloprid" },-->
+<!--        "Grapes": { fertilizer: "Nitrogen", pesticide: "Captan" },-->
+<!--        "Apple": { fertilizer: "NPK 10-10-10", pesticide: "Copper oxychloride" },-->
+<!--        "Lettuce": { fertilizer: "NPK 10-20-10", pesticide: "Neem Oil" },-->
+<!--        "Bell Pepper": { fertilizer: "UREA", pesticide: "Chlorantraniliprole" },-->
+<!--        "Watermelon": { fertilizer: "UREA", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Onion": { fertilizer: "Nitrogen", pesticide: "Spinosad" },-->
+<!--        "Garlic": { fertilizer: "UREA", pesticide: "Bt (Bacillus thuringiensis)" },-->
+<!--        "Strawberry": { fertilizer: "UREA", pesticide: "Methyl parathion" },-->
+<!--        "Pumpkin": { fertilizer: "NPK 10-20-10", pesticide: "Bifenthrin" },-->
+<!--        "Basil": { fertilizer: "Nitrogen", pesticide: "Spinosad" },-->
+<!--        "Thyme": { fertilizer: "UREA", pesticide: "Bacillus thuringiensis" },-->
+<!--        "Eggplant": { fertilizer: "UREA", pesticide: "Pyrethroids" },-->
+<!--        "Zucchini": { fertilizer: "NPK 10-20-10", pesticide: "Bifenthrin" },-->
+<!--        "Mint": { fertilizer: "Nitrogen", pesticide: "Pyrethroids" },-->
+<!--        "Rice": { fertilizer: "NPK 20-20-20", pesticide: "Tricyclazole" },-->
+<!--        "Wheat": { fertilizer: "UREA", pesticide: "Propiconazole" },-->
+<!--        "Maize": { fertilizer: "Ammonium nitrate", pesticide: "Carbaryl" },-->
+<!--        "Corn": { fertilizer: "DAP", pesticide: "Permethrin" },-->
+<!--        "Barley": { fertilizer: "Complete fertilizer", pesticide: "Tebuconazole" },-->
+<!--        "Oats": { fertilizer: "UREA", pesticide: "Propiconazole" },-->
+<!--        "Rye": { fertilizer: "NPK 10-10-10", pesticide: "Tricyclazole" },-->
+<!--        "Millet": { fertilizer: "Nitrogen", pesticide: "Chlorpyrifos" },-->
+<!--        "Sorghum": { fertilizer: "Ammonium nitrate", pesticide: "Malathion" },-->
+<!--        "Quinoa": { fertilizer: "UREA", pesticide: "Spinosad" },-->
+<!--        "Triticale": { fertilizer: "NPK 15-15-15", pesticide: "Pyrethroids" }-->
+<!--    };-->
+
+<!--    const cropList = document.getElementById('crop-list');-->
+<!--    for (const crop in cropData) {-->
+<!--        const cropItem = document.createElement('li');-->
+<!--        cropItem.className = 'crop-item';-->
+<!--        cropItem.textContent = crop;-->
+<!--        cropItem.onclick = () => showPopup(crop);-->
+<!--        cropList.appendChild(cropItem);-->
+<!--    }-->
+
+<!--    function showPopup(crop) {-->
+<!--        const popup = document.getElementById('recommendations');-->
+<!--        const cropName = document.getElementById('crop-name');-->
+<!--        const fertilizer = document.getElementById('fertilizer');-->
+<!--        const pesticide = document.getElementById('pesticide');-->
+
+<!--        cropName.textContent = crop;-->
+<!--        fertilizer.textContent = cropData[crop].fertilizer;-->
+<!--        pesticide.textContent = cropData[crop].pesticide;-->
+
+<!--        popup.style.display = 'block';-->
+<!--    }-->
+
+<!--    function closePopup() {-->
+<!--        const popup = document.getElementById('recommendations');-->
+<!--        popup.style.display = 'none';-->
+<!--    }-->
+ 
+
+<!--    Object.keys(cropData).forEach(crop => {-->
+<!--        const listItem = createCropListItem(crop);-->
+<!--        cropList.appendChild(listItem);-->
+<!--    });-->
+<!--</script>-->
+
+
+
+
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #c57b6c, rgb(72, 167, 78)); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="15"><div class="marqu">In agriculture, wisdom is the key to a thriving future, for the fields belong to those who sow the seeds of knowledge today. Your dedication, not just your skills, will elevate your success in farming. If you believe investing in agricultural education is costly, consider the cost of not knowing. The truly educated farmer is the one who continually learns and adapts, understanding that change is the only constant on the fertile path to prosperity.</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/logo.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+			
+				<br><p><img src="images/icon/location.png"> VIT Bhopal University<br>Madhya Pradesh, India</p><br>
+				<p><img src="images/icon/phone.png"> ************<br><img src="images/icon/mail.png">&nbsp; AgroTech@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+	<!-- <script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script> -->
+</body>
+</html>
